@@ -1,6 +1,7 @@
-import React from 'react';
-import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
+import logo from './logo.svg';
 import './App.css';
+import './components/SortingVisualizer'
+import SortingVisualizer from './components/SortingVisualizer';
 
 function App() {
   return (
