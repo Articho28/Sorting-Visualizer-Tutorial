@@ -14,6 +14,7 @@ export const mergeSort = array => {
     return {sortedArray: array, animations: animations}
 }
 
+// helper method
 const mergeSortHelper = (array, temp, leftStart, rightEnd, animations) => {
     if (leftStart >= rightEnd) return;
     const middle = Math.floor( (leftStart + rightEnd) / 2);
